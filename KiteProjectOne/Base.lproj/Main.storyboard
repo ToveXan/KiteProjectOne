@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina5_5" orientation="portrait">
+    <device id="retina6_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -14,11 +14,11 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="KiteProjectOne" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MIB-SL-9en">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="862"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background woman" translatesAutoresizingMaskIntoConstraints="NO" id="XjX-Jw-mud">
                                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
@@ -67,97 +67,142 @@
             <objects>
                 <viewController id="b9h-DU-KcF" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="7k9-9s-NsM">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="73T-6h-B3u">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="73T-6h-B3u">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="862"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="background view 2" translatesAutoresizingMaskIntoConstraints="NO" id="vha-8W-m8f">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background view 2" translatesAutoresizingMaskIntoConstraints="NO" id="vha-8W-m8f">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="862"/>
                                     </imageView>
-                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Description box here   May add a second button for log in? Ticket button will stay" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="2QC-d4-6Xn">
-                                        <rect key="frame" x="83" y="213" width="246" height="410"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <color key="textColor" red="0.97647058819999999" green="1" blue="0.97254901959999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                    </textView>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="afN-Td-qAK">
-                                        <rect key="frame" x="20" y="644" width="377" height="70"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="afN-Td-qAK">
+                                        <rect key="frame" x="20" y="804" width="374" height="48"/>
                                         <color key="backgroundColor" red="0.17162765638332469" green="0.26839481257686204" blue="0.57499289509999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                         <state key="normal" title="Tickets">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                         <connections>
-                                            <segue destination="io5-Qo-Js3" kind="show" id="pBL-Q1-OaO"/>
+                                            <segue destination="io5-Qo-Js3" kind="show" id="dVZ-q7-tb5"/>
                                         </connections>
                                     </button>
+                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Description box here   May add a second button for log in? Ticket button will stay" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="2QC-d4-6Xn">
+                                        <rect key="frame" x="80" y="200" width="254" height="584"/>
+                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="textColor" red="0.97647058819999999" green="1" blue="0.97254901959999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                    </textView>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="vha-8W-m8f" firstAttribute="width" secondItem="73T-6h-B3u" secondAttribute="width" id="4P3-Vq-va3"/>
+                                    <constraint firstItem="2QC-d4-6Xn" firstAttribute="leading" secondItem="73T-6h-B3u" secondAttribute="leading" constant="80" id="7Ed-5j-8bj"/>
+                                    <constraint firstAttribute="bottom" secondItem="afN-Td-qAK" secondAttribute="bottom" constant="10" id="Isv-HT-zRB"/>
+                                    <constraint firstItem="vha-8W-m8f" firstAttribute="height" secondItem="73T-6h-B3u" secondAttribute="height" id="Ju7-rJ-ah0"/>
+                                    <constraint firstItem="afN-Td-qAK" firstAttribute="leading" secondItem="73T-6h-B3u" secondAttribute="leading" constant="20" id="Lzl-Bl-xJB"/>
+                                    <constraint firstAttribute="trailing" secondItem="afN-Td-qAK" secondAttribute="trailing" constant="20" id="Nh0-Rx-JHI"/>
+                                    <constraint firstItem="afN-Td-qAK" firstAttribute="top" secondItem="2QC-d4-6Xn" secondAttribute="bottom" constant="20" id="P4R-fh-5Y2"/>
+                                    <constraint firstAttribute="trailing" secondItem="vha-8W-m8f" secondAttribute="trailing" id="e9Y-Bj-Pdl"/>
+                                    <constraint firstItem="2QC-d4-6Xn" firstAttribute="top" secondItem="73T-6h-B3u" secondAttribute="top" constant="200" id="l72-is-Ip7"/>
+                                    <constraint firstAttribute="trailing" secondItem="2QC-d4-6Xn" secondAttribute="trailing" constant="80" id="tIM-c5-FZX"/>
+                                    <constraint firstItem="vha-8W-m8f" firstAttribute="top" secondItem="73T-6h-B3u" secondAttribute="top" id="z6W-PY-GB7"/>
+                                </constraints>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="73T-6h-B3u" firstAttribute="trailing" secondItem="PQN-wS-5cM" secondAttribute="trailing" id="13U-NW-wuN"/>
+                            <constraint firstItem="73T-6h-B3u" firstAttribute="bottom" secondItem="PQN-wS-5cM" secondAttribute="bottom" id="3mJ-9S-zhS"/>
+                            <constraint firstItem="73T-6h-B3u" firstAttribute="leading" secondItem="PQN-wS-5cM" secondAttribute="leading" id="joT-WK-SVo"/>
+                            <constraint firstItem="73T-6h-B3u" firstAttribute="top" secondItem="7k9-9s-NsM" secondAttribute="top" id="l2M-O1-rjb"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="PQN-wS-5cM"/>
                     </view>
                     <navigationItem key="navigationItem" id="jXR-kV-dGq"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UZS-Ds-rwJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="909" y="227"/>
+            <point key="canvasLocation" x="908.69565217391312" y="226.33928571428569"/>
         </scene>
-        <!--View Controller-->
+        <!--Picker View Controller-->
         <scene sceneID="Aej-6Y-D7y">
             <objects>
-                <viewController id="io5-Qo-Js3" sceneMemberID="viewController">
+                <viewController id="io5-Qo-Js3" customClass="PickerViewController" customModule="KiteProjectOne" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="LN7-rd-nnQ">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cji-Rf-xm6">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cji-Rf-xm6">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="862"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E6g-qG-Z3i">
-                                        <rect key="frame" x="19" y="641" width="377" height="70"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="E6g-qG-Z3i">
+                                        <rect key="frame" x="20" y="762" width="374" height="50"/>
                                         <color key="backgroundColor" red="0.17162765639999999" green="0.26839481259999998" blue="0.57499289509999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="50" id="Wev-fz-AeV"/>
+                                        </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                        <state key="normal" title="Checkout">
+                                        <state key="normal" title="Summary">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
+                                        <connections>
+                                            <segue destination="TXx-hT-f6x" kind="show" id="eqE-yq-fY4"/>
+                                        </connections>
                                     </button>
-                                    <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pst-U3-3bt">
-                                        <rect key="frame" x="49" y="119" width="316" height="464"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pst-U3-3bt">
+                                        <rect key="frame" x="50" y="119" width="314" height="500"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ytI-vu-Pap">
-                                                <rect key="frame" x="0.0" y="0.0" width="316" height="464"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <string key="text">This will be the ticket selection view. Would it be easier for you guys to code using tableview or different way? feel free to edit this to add what works easiest coding wise. Visually this page will just be this view, a button, and a patterned background.</string>
-                                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
+                                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aOT-Fb-THl">
+                                                <rect key="frame" x="0.0" y="0.0" width="314" height="500"/>
+                                            </pickerView>
                                         </subviews>
                                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="aOT-Fb-THl" secondAttribute="trailing" id="2Dj-Xi-1dY"/>
+                                            <constraint firstAttribute="bottom" secondItem="aOT-Fb-THl" secondAttribute="bottom" id="IYg-3h-uNW"/>
+                                            <constraint firstAttribute="height" constant="500" id="MpO-tk-Vsr"/>
+                                            <constraint firstItem="aOT-Fb-THl" firstAttribute="leading" secondItem="pst-U3-3bt" secondAttribute="leading" id="cLK-Sj-S4j"/>
+                                            <constraint firstItem="aOT-Fb-THl" firstAttribute="top" secondItem="pst-U3-3bt" secondAttribute="top" id="vDM-8I-351"/>
+                                        </constraints>
                                     </view>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="pst-U3-3bt" firstAttribute="leading" secondItem="cji-Rf-xm6" secondAttribute="leading" constant="50" id="3Eq-RH-fvq"/>
+                                    <constraint firstAttribute="bottom" secondItem="E6g-qG-Z3i" secondAttribute="bottom" constant="50" id="7c9-Cs-U7l"/>
+                                    <constraint firstAttribute="trailing" secondItem="pst-U3-3bt" secondAttribute="trailing" constant="50" id="8OV-sx-sp7"/>
+                                    <constraint firstAttribute="trailing" secondItem="E6g-qG-Z3i" secondAttribute="trailing" constant="20" id="Nig-oc-ZCk"/>
+                                    <constraint firstItem="pst-U3-3bt" firstAttribute="top" secondItem="cji-Rf-xm6" secondAttribute="top" constant="119" id="bpd-DW-HMQ"/>
+                                    <constraint firstItem="E6g-qG-Z3i" firstAttribute="leading" secondItem="cji-Rf-xm6" secondAttribute="leading" constant="20" id="ik6-Lk-lxW"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="firstColor">
+                                        <color key="value" red="0.98823529409999999" green="0.64705882349999999" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="SecondColor">
+                                        <color key="value" red="0.0" green="0.56904578210000001" blue="0.57461684940000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="nZQ-A6-JFH" firstAttribute="trailing" secondItem="cji-Rf-xm6" secondAttribute="trailing" id="BgK-Ej-8Uh"/>
+                            <constraint firstItem="cji-Rf-xm6" firstAttribute="top" secondItem="LN7-rd-nnQ" secondAttribute="top" id="UZw-i8-494"/>
+                            <constraint firstItem="cji-Rf-xm6" firstAttribute="leading" secondItem="nZQ-A6-JFH" secondAttribute="leading" id="c0R-3A-MQx"/>
+                            <constraint firstItem="nZQ-A6-JFH" firstAttribute="bottom" secondItem="cji-Rf-xm6" secondAttribute="bottom" id="mm3-vS-qv1"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="nZQ-A6-JFH"/>
                     </view>
+                    <connections>
+                        <outlet property="pickerView" destination="aOT-Fb-THl" id="U0r-BO-Mch"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="j4j-mg-NHd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1747.826086956522" y="226.63043478260872"/>
+            <point key="canvasLocation" x="1747.826086956522" y="226.33928571428569"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="MYh-hz-lgc">
@@ -165,7 +210,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Mpr-jZ-rLc" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Rb5-eZ-D21">
-                        <rect key="frame" x="0.0" y="20" width="414" height="44"/>
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -182,7 +227,7 @@
             <objects>
                 <viewController id="JWO-fC-j3p" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="jOU-fU-hal">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Coming Soon Log in Screen" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PVY-wH-X5u">
@@ -206,7 +251,7 @@
             <objects>
                 <viewController id="PNo-pw-W68" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="rpq-HU-yLU">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Coming Soon Profile Screen" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yBd-wy-mYR">
@@ -225,36 +270,79 @@
             </objects>
             <point key="canvasLocation" x="2401" y="-617"/>
         </scene>
-        <!--View Controller-->
+        <!--Check Out View Controller-->
         <scene sceneID="dLq-Pd-7q3">
             <objects>
-                <viewController id="TXx-hT-f6x" sceneMemberID="viewController">
+                <viewController id="TXx-hT-f6x" customClass="CheckOutViewController" customModule="KiteProjectOne" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Q8j-ed-kW3">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Coming Soon Checkout Screen" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g1H-Kw-sfc">
-                                <rect key="frame" x="69" y="139" width="277" height="277"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ztF-CI-xm7">
+                                <rect key="frame" x="20" y="88" width="374" height="500"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="bottom" spacing="100" translatesAutoresizingMaskIntoConstraints="NO" id="Obc-5r-WkQ">
+                                        <rect key="frame" x="20" y="50" width="334" height="261"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ticket Cost " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5PG-Hf-LRH">
+                                                <rect key="frame" x="242.66666666666671" y="0.0" width="91.333333333333343" height="20.333333333333332"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fXX-3d-q9g">
+                                                <rect key="frame" x="292.33333333333331" y="120.3333333333333" width="41.666666666666686" height="20.333333333333329"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="221" translatesAutoresizingMaskIntoConstraints="NO" id="FPT-FP-0Q4">
+                                                <rect key="frame" x="292.33333333333331" y="240.66666666666669" width="41.666666666666686" height="20.333333333333314"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Zd-uk-M6W">
+                                                        <rect key="frame" x="0.0" y="0.0" width="41.666666666666664" height="20.333333333333332"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="Obc-5r-WkQ" secondAttribute="trailing" constant="20" id="OPO-tH-K4g"/>
+                                    <constraint firstAttribute="height" constant="500" id="n00-l0-hAI"/>
+                                    <constraint firstItem="Obc-5r-WkQ" firstAttribute="leading" secondItem="ztF-CI-xm7" secondAttribute="leading" constant="20" id="woT-Vc-acG"/>
+                                    <constraint firstItem="Obc-5r-WkQ" firstAttribute="top" secondItem="ztF-CI-xm7" secondAttribute="top" constant="50" id="xKd-gi-Fwi"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="r7c-Pd-SEt" firstAttribute="trailing" secondItem="ztF-CI-xm7" secondAttribute="trailing" constant="20" id="HKK-YG-e7A"/>
+                            <constraint firstItem="ztF-CI-xm7" firstAttribute="leading" secondItem="Q8j-ed-kW3" secondAttribute="leadingMargin" id="iXW-Lp-pks"/>
+                            <constraint firstItem="ztF-CI-xm7" firstAttribute="top" secondItem="r7c-Pd-SEt" secondAttribute="top" id="ofX-qD-JCT"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="r7c-Pd-SEt"/>
                     </view>
+                    <connections>
+                        <outlet property="priceLabel" destination="5PG-Hf-LRH" id="lby-Fx-S1Z"/>
+                        <outlet property="quantityLabel" destination="fXX-3d-q9g" id="Cjl-WT-Rau"/>
+                        <outlet property="totalLabel" destination="0Zd-uk-M6W" id="Oa3-Ux-QQ5"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dMt-Rg-1FU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2836" y="227"/>
+            <point key="canvasLocation" x="2834.7826086956525" y="226.33928571428569"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="vdG-4O-R4g">
             <objects>
                 <viewController id="5uA-dW-nv3" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="TYO-Jr-X4T">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Coming Soon Thank You Screen?" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="8" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5vd-gn-Xou">
